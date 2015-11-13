@@ -1,4 +1,5 @@
 /*The text we will be using is MONTSERRAT for the menu and DROID SANS for the headings*/
 .nav-menu {
   font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
