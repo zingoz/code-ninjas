@@ -1,4 +1,9 @@
 /*The text we will be using is MONTSERRAT for the menu and DROID SANS for the headings*/
+h1 {
+  font-size: 40px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
 a {
   text-decoration: none;
 
@@ -9,5 +14,6 @@ a {
   font-weight: bold;
 }
 .nav-info {
-  list-style-type: disc;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 20px;
 }
