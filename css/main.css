@@ -6,12 +6,22 @@ h1 {
 
 a {
   text-decoration: none;
+}
+nav {
+  display: inline;
+  float: left;
+}
+
+.logo {
+  width: 25%;
 
 }
+
 .nav-menu {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   font-weight: bold;
+  list-style-type: none;
 }
 .nav-info {
   font-family: 'Droid Sans', sans-serif;
