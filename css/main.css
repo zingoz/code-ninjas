@@ -1,13 +1,15 @@
 /*The text we will be using is MONTSERRAT for the menu and DROID SANS for the headings*/
-/**********
-GENERAL
-*********/
+/***********
+   GENERAL
+***********/
 
 body {
+  margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
   min-width: 590px;
+  background-color: #F0F0F0;
 }
 
 
@@ -15,35 +17,38 @@ a {
   text-decoration: none;
 }
 
-/********
-HEADING
-*******/
-
-
-
 
 /**********
-NAVIGATION
-*********/
+  HEADING
+**********/
+
 #logo {
   display: block;
-  margin: 0px 0px 0px 40%;
-  width: 25%;
+  margin: 0px auto;
+  width: 500px;
 }
+
+
+
+/*************
+  NAVIGATION
+*************/
 
 .color-strip {
   background-color: #C3BB38;
   height: 12px;
   width: 100%;
   margin-top: 10px;
-  border-top: 3px solid #c0c0c0;
+  border-top: 3px solid #C0C0C0;
 }
-
+header {
+  background-color: #FFF;
+}
 nav {
   text-align: center;
   background-color: #232323;
   border-top: 5px solid #232323;
-  border-bottom: 5px solid #c0c0c0;
+  border-bottom: 5px solid #C0C0C0;
   width: 100%;
   height: 40px;
 }
@@ -62,7 +67,7 @@ nav li {
 }
 
 .selected {
-  background-color: #c0c0c0;
+  background-color: #C0C0C0;
 }
 
 nav a {
@@ -79,6 +84,34 @@ a:visited {
   color: #FFF;
 }
 
+/************
+    MAIN
+*************/
+main {
+  margin-top: 0px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #4F4F4F;
+}
+
+section {
+  width: 500px;
+  margin: 0px auto;
+}
+
+.contact-button {
+  width: 310px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid #C3BB38;
+  background-color: #C3BB38;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+.contact-button:hover {
+  background-color: #5C5C5C;
+  border-color: #5C5C5C;
+}
 /*body {
   margin-left: 0px;
   margin-right: 0px;
