@@ -1,4 +1,71 @@
 /*The text we will be using is MONTSERRAT for the menu and DROID SANS for the headings*/
+/**********
+GENERAL
+*********/
+
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/********
+HEADING
+*******/
+
+
+
+
+/**********
+NAVIGATION
+*********/
+nav {
+  text-align: center;
+  background-color: #232323;
+  border-top: 5px solid #232323;
+  border-bottom: 5px solid #c0c0c0;
+  width: 100%;
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 10px;
+
+}
+
+.selected {
+  background-color: #c0c0c0;
+}
+
+nav a {
+  padding: 15px 15px;
+}
+
+.nav-menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFF;
+}
+a:visited {
+  color: #FFF;
+}
+
+/*body {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 h1 {
   font-size: 40px;
   font-family: 'Droid Sans', sans-serif;
@@ -16,7 +83,7 @@ nav {
 ul {
   border: 3px solid red;
   overflow: hidden;
-  width: 600px;
+
   margin: 0px auto;
 }
 li {
@@ -39,8 +106,11 @@ li {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   font-weight: bold;
+
 }
 .nav-info {
+  width: 600px;
   font-family: 'Droid Sans', sans-serif;
   font-size: 20px;
-}
+
+}*/
