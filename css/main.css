@@ -6,6 +6,8 @@ GENERAL
 body {
   margin-left: 0px;
   margin-right: 0px;
+  width: 100%;
+  min-width: 590px;
 }
 
 
@@ -23,6 +25,20 @@ HEADING
 /**********
 NAVIGATION
 *********/
+#logo {
+  display: block;
+  margin: 0px 0px 0px 40%;
+  width: 25%;
+}
+
+.color-strip {
+  background-color: #C3BB38;
+  height: 12px;
+  width: 100%;
+  margin-top: 10px;
+  border-top: 3px solid #c0c0c0;
+}
+
 nav {
   text-align: center;
   background-color: #232323;
@@ -35,6 +51,8 @@ nav {
 nav ul {
   list-style: none;
   margin: 0px;
+
+  padding-left: -40px;
 }
 
 nav li {
