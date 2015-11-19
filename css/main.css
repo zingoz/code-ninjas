@@ -118,7 +118,7 @@ section {
 }
 
 /************
-   FOOTER position: fixed;
+   FOOTER 
 ************/
 
 #sidfot {
@@ -132,7 +132,7 @@ color: #FFF;
 font-weight: bold;
 font-size: 15px;
 font-family: 'Montserrat', sans-serif;
-
+position: fixed;
 height: 30px;
 margin: 0px auto;
 border-top: 13px solid #C3BB38;
