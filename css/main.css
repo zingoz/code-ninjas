@@ -122,13 +122,16 @@ background-color: #232323;
 border-top: 13px solid  #C3BB38;
 position: fixed;
 bottom: 20px;
+
+
+}
+/*body {
+
 font-family: 'Montserrat', sans-serif;
 font-size: 15px;
 font-weight: bold;
 text-color: #FFF;
 
-}
-/*body {
   margin-left: 0px;
   margin-right: 0px;
 }
