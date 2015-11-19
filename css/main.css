@@ -87,6 +87,24 @@ nav a {
   font-weight: bold;
 }
 
+#sidfot {
+clear: both;
+width:100%;
+padding-top: 20px;
+padding-bottom: 35px;
+background: #232323;
+color: #FFF;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+position: fixed;
+height: 30px;
+margin: 0px auto;
+border-top: 13px solid #C3BB38;
+bottom: 0px;
+text-align: center;
+}
+
 /************
     MAIN
 *************/
