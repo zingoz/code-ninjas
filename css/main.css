@@ -12,6 +12,11 @@ body {
   background-color: #F0F0F0;
 }
 
+
+a {
+  text-decoration: none;
+}
+
 /**********
   HEADING
 **********/
@@ -37,6 +42,7 @@ body {
 }
 header {
   background-color: #FFF;
+  color: #FFF;
 }
 nav {
   text-align: center;
@@ -75,11 +81,6 @@ nav a {
   color: #FFF;
 }
 a:visited {
-  color: #FFF;
-}
-
-a {
-  text-decoration: none;
   color: #FFF;
 }
 
