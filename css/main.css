@@ -116,7 +116,18 @@ section {
   border-color: #5C5C5C;
 }
 
-#sidfot {clear: both; width:100%; background: #a8c1c6; border-bottom: 1px solid #666666;position: fixed;bottom: 20px;}
+#sidfot {clear: both;
+width:100%; 
+background-color: #232323; 
+border-top: 13px solid  #C3BB38;
+position: fixed;
+bottom: 20px;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+font-weight: bold;
+text-color: #FFF;
+
+}
 /*body {
   margin-left: 0px;
   margin-right: 0px;
