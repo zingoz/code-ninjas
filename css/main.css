@@ -1,8 +1,141 @@
 /*The text we will be using is MONTSERRAT for the menu and DROID SANS for the headings*/
-.nav-menu {
-  font-family: 'Montserrat', sans-serif;
+/***********
+   GENERAL
+***********/
+
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  min-width: 590px;
+  background-color: #F0F0F0;
+
 }
+
+
 a {
   text-decoration: none;
-  
+}
+
+a:link {
+  color: #FFF;
+}
+
+a:visited {
+  color: #FFF;
+}
+/**********
+  HEADING
+**********/
+
+#logo {
+  display: block;
+  margin: 0px auto;
+  width: 500px;
+}
+
+
+
+/*************
+  NAVIGATION
+*************/
+
+.color-strip {
+  background-color: #C3BB38;
+  height: 12px;
+  width: 100%;
+  margin-top: 10px;
+  border-top: 3px solid #C0C0C0;
+}
+header {
+  background-color: #FFF;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: #232323;
+  border-top: 5px solid #232323;
+  border-bottom: 5px solid #C0C0C0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+
+  padding-left: -40px;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 10px;
+
+}
+
+.selected {
+  background-color: #C0C0C0;
+}
+
+nav a {
+  padding: 15px 15px;
+}
+
+.nav-menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+/************
+    MAIN
+*************/
+main {
+  margin-top: 0px;
+  font-family: 'Droid Sans', sans-serif;
+  color: #4F4F4F;
+}
+
+section {
+  width: 500px;
+  margin: 0px auto;
+}
+
+.contact-button {
+  width: 310px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid #C3BB38;
+  background-color: #C3BB38;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+.contact-button:hover {
+  background-color: #5C5C5C;
+  border-color: #5C5C5C;
+}
+
+/************
+   FOOTER
+************/
+
+#sidfot {
+clear: both;
+width:100%;
+min-width: 590px;
+padding-top: 20px;
+padding-bottom: 35px;
+background: #232323;
+color: #FFF;
+font-weight: bold;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+position: fixed;
+height: 30px;
+margin: 0px auto;
+border-top: 13px solid #C3BB38;
+bottom: 0px;
+text-align: center;
 }
